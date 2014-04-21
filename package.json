@@ -1,0 +1,24 @@
+{
+  "name": "pagerun-jserror",
+  "version": "0.9.1",
+  "description": "Catch js error for pagerun.",
+  "main": "jserror",
+  "dependencies": {
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/yaniswang/pagerun-jserror.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yaniswang/pagerun-jserror/issues"
+  },
+  "keywords": [
+    "pagerun",
+    "jserror",
+    "nodejs",
+    "javascript"
+  ],
+  "author": "Yanis Wang",
+  "license": "MIT"
+}
