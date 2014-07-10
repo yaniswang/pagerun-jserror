@@ -1,6 +1,6 @@
 (function(){
     window.onerror = function(message, file, line) {
-        pagerun.result('jserror', {
+        pagerun.error('jserror', {
             message: message,
             file: file,
             line: line
