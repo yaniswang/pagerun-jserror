@@ -1,6 +1,6 @@
 {
   "name": "pagerun-jserror",
-  "version": "0.9.3",
+  "version": "0.9.4",
   "description": "Catch js error for pagerun.",
   "main": "jserror",
   "dependencies": {
