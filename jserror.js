@@ -22,11 +22,11 @@ module.exports = function(pagerun){
                         httpData.responseContent = responseContent;
                     }
                 }
-                // add header: access-control-allow-origin
-                var responseHeaders= httpData.responseHeaders;
-                if(responseHeaders){
-                    responseHeaders['access-control-allow-origin'] = '*';
-                }
+            }
+            // add header: access-control-allow-origin
+            var responseHeaders= httpData.responseHeaders;
+            if(responseHeaders){
+                responseHeaders['access-control-allow-origin'] = '*';
             }
             next();
         });
